@@ -56,7 +56,7 @@ const Result = ({name, avatar, weight,height, types,abilities,stats}) => {
                     </div>
                 </div>
                 <div className="group-habilities">
-                    <h3 className="inter-bold">Habilities:</h3>
+                    <h3 className="inter-bold">Abilities:</h3>
                     <div className="habilities">
                         <span className="inter-medium values-rectangle">{capitalizeFirstLetter(abilities[0].ability.name)}</span>
                         <span className="inter-medium values-rectangle" style={{visibility: !abilities[1] ? 'hidden' : 'visible' }}>
